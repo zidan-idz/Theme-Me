@@ -8,34 +8,34 @@ from support.lib import load, message
 
 def background_x(y, maxx=10, delay=2):
     if y == "A":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Backgrounds/3024-Dark/colors.properties"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/3024-Dark/colors.properties"
         font = " 3024-Dark "
     elif y == "B":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Backgrounds/Ashes-Dark/colors.properties"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Ashes-Dark/colors.properties"
         font = " Ashes-Dark "
     elif y == "C":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Backgrounds/Atelierdune-Dark/colors.properties"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Atelierdune-Dark/colors.properties"
         font = " Atelierdune-Dark "
     elif y == "D":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Backgrounds/Atelierforest-Dark/colors.properties"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Atelierforest-Dark/colors.properties"
         font = " Atelierforest-Dark "
     elif y == "E":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Backgrounds/Atelierhealt-Dark/colors.properties"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Atelierhealt-Dark/colors.properties"
         font = " Atelierhealt-Dark "
     elif y == "F":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Backgrounds/Atelierlikeside-Dark/colors.properties"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Atelierlikeside-Dark/colors.properties"
         font = " Atelierlikeside-Dark "
     elif y == "G":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Backgrounds/Flat-Dark/colors.properties"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Flat-Dark/colors.properties"
         font = " Embers-Dark "
     elif y == "H":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Backgrounds/Atelierseaside-Dark/colors.properties"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Atelierseaside-Dark/colors.properties"
         font = " Atelierseaside-Dark "
     elif y == "I":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Backgrounds/Bespin-Dark/colors.properties"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Bespin-Dark/colors.properties"
         font = " Bespin-Dark "
     elif y == "J":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Backgrounds/Brewer-Dark/colors.properties"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Brewer-Dark/colors.properties"
         font = " Brewer-Dark "
     else:
         return
