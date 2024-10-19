@@ -8,34 +8,34 @@ from support.lib import load, message
 
 def font_x(y, maxx=10, delay=2):
     if y == "A":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Fonts/Inconsolata/font.ttf"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Fonts/Inconsolata/font.ttf"
         font = " Inconsolata "
     elif y == "B":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Fonts/Iosevka/font.ttf"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Fonts/Iosevka/font.ttf"
         font = " Iosevka "
     elif y == "C":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Fonts/LiberationMono/font.ttf"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Fonts/LiberationMono/font.ttf"
         font = " LiberationMono "
     elif y == "D":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Fonts/Meslo/font.ttf"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Fonts/Meslo/font.ttf"
         font = " Meslo "
     elif y == "E":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Fonts/Monofur/font.ttf"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Fonts/Monofur/font.ttf"
         font = " Monofur "
     elif y == "F":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Fonts/Monoid/font.ttf"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Fonts/Monoid/font.ttf"
         font = " Monoid "
     elif y == "G":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Fonts/OpenDyslexic/font.ttf"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Fonts/OpenDyslexic/font.ttf"
         font = " OpenDyslexic "
     elif y == "H":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Fonts/Roboto/font.ttf"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Fonts/Roboto/font.ttf"
         font = " Roboto "
     elif y == "I":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Fonts/Source-Code-Pro/font.ttf"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Fonts/Source-Code-Pro/font.ttf"
         font = " Source-Code-Pro "
     elif y == "J":
-        url = "https://raw.githubusercontent.com/Zidan-ID17/hozon/master/Fonts/Ubuntu/font.ttf"
+        url = "https://raw.githubusercontent.com/zidan-idz/hozon/master/Fonts/Ubuntu/font.ttf"
         font = " Ubuntu "
     else:
         return
