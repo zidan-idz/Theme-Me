@@ -1,0 +1,121 @@
+[
+  {
+    "id": "3024-dark",
+    "name": "3024-Dark",
+    "url": "data/backgrounds/3024-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "ashes-dark",
+    "name": "Ashes-Dark",
+    "url": "data/backgrounds/ashes-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "atelierdune-dark",
+    "name": "Atelierdune-Dark",
+    "url": "data/backgrounds/atelierdune-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "atelierforest-dark",
+    "name": "Atelierforest-Dark",
+    "url": "data/backgrounds/atelierforest-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "atelierhealt-dark",
+    "name": "Atelierhealt-Dark",
+    "url": "data/backgrounds/atelierhealt-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "atelierlikeside-dark",
+    "name": "Atelierlikeside-Dark",
+    "url": "data/backgrounds/atelierlikeside-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "embers-dark",
+    "name": "Embers-Dark",
+    "url": "data/backgrounds/embers-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "atelierseaside-dark",
+    "name": "Atelierseaside-Dark",
+    "url": "data/backgrounds/atelierseaside-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "bespin-dark",
+    "name": "Bespin-Dark",
+    "url": "data/backgrounds/bespin-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "brewer-dark",
+    "name": "Brewer-Dark",
+    "url": "data/backgrounds/brewer-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "bright-dark",
+    "name": "Bright-Dark",
+    "url": "data/backgrounds/bright-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "chalk-dark",
+    "name": "Chalk-Dark",
+    "url": "data/backgrounds/chalk-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "codeschool-dark",
+    "name": "Codeschool-Dark",
+    "url": "data/backgrounds/codeschool-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "colors-dark",
+    "name": "Colors-Dark",
+    "url": "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Colors-Dark/colors.properties"
+  },
+  {
+    "id": "default-dark",
+    "name": "Default-Dark",
+    "url": "data/backgrounds/default-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "eighties-dark",
+    "name": "Eighties-Dark",
+    "url": "data/backgrounds/eighties-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "embers-dark",
+    "name": "Embers-Dark",
+    "url": "data/backgrounds/embers-dark_colors.properties",
+    "is_local": true
+  },
+  {
+    "id": "flat-dark",
+    "name": "Flat-Dark",
+    "url": "data/backgrounds/flat-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "google-dark",
+    "name": "Google-Dark",
+    "url": "data/backgrounds/google-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "grayscale-dark",
+    "name": "Grayscale-Dark",
+    "url": "data/backgrounds/grayscale-dark.txt",
+    "is_local": true
+  }
+]

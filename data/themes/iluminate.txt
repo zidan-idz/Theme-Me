@@ -1,0 +1,21 @@
+
+\033[38;5;214m             .~?Y7               7Y7^.          
+          .!J5G5^       :!.       ~PG5J~.       
+         ~PGGGJ.        .!.        .YGGG5:      
+         YGPG?    .:~7?JJJJJ?7~:.    JGPGJ      
+     :? :PPG?  :!JPGP5YJJ?JJY5PGPJ!:  YGPP.:?.  
+    :5Y ~GGY ^JPGP?~:.       .:~?5GPJ:.5GP: 5Y. 
+   .YGJ !GP~?PGGJ:   Y55YYY55Y   .~YGP7!PG^ YGJ 
+   7GGY ~GYYGPGY     ^~~5G5~~^      7PGY5G: 5GG!
+   5PPP.:PPGPGG!    .7?^JGJ^?77~:.   !GGPP.:PPG5
+   5GPG! YGG5YGY.   .PG!JGJ!GG55PPJ~  YGG? 7GPG5
+   :YGGP.~GG?.JGP?~::PG!JGJ!GP: :!5GY:?GG^:PGGJ.
+   ..!PG5^5G5  :?5PPPGG!JGJ!GP:    YG55GP^5G5~..
+   :Y~.7P55GG7    .^~~!:YGJ:!!.    7GGPG55P!:!Y.
+    ~GY~:!YPGG?.     !!!5G5!!!    .5GPGPJ!:!5G^ 
+     ~PG5?~^75G5!.   ?JJJJJJJ?   ^YGP57^~?PGP^  
+      :YGGG5J?5GGPJ!^.       .^!YGGP5JJPGGGJ.   
+        ~?YY5555555PGP5YYYYY5PGP5555555YJ?~     
+           :!????JY5J!5GGGGGY!Y5YJ????!.        
+            .^7YP57^^JGPPYPPP?:^?5PY7^.         
+                .  :Y55P? JP55J.  .    
