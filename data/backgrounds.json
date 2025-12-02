@@ -80,7 +80,7 @@
   {
     "id": "colors-dark",
     "name": "Colors-Dark",
-    "url": "https://raw.githubusercontent.com/zidan-idz/hozon/master/Backgrounds/Colors-Dark/colors.properties"
+    "url": "data/backgrounds/colors-dark.txt"
   },
   {
     "id": "default-dark",
@@ -92,12 +92,6 @@
     "id": "eighties-dark",
     "name": "Eighties-Dark",
     "url": "data/backgrounds/eighties-dark.txt",
-    "is_local": true
-  },
-  {
-    "id": "embers-dark",
-    "name": "Embers-Dark",
-    "url": "data/backgrounds/embers-dark_colors.properties",
     "is_local": true
   },
   {
@@ -116,6 +110,12 @@
     "id": "grayscale-dark",
     "name": "Grayscale-Dark",
     "url": "data/backgrounds/grayscale-dark.txt",
+    "is_local": true
+  },
+  {
+    "id": "dracula",
+    "name": "Dracula",
+    "url": "data/backgrounds/dracula.txt",
     "is_local": true
   }
 ]

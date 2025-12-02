@@ -3,34 +3,33 @@ from core.constants import TOOL_NAME, VERSION, VERSION_TAG, AUTHOR, GITHUB_URL, 
 import os
 
 def show_about():
-    """Display about information"""
-
     if os.path.exists("since.txt"):
         with open("since.txt", "r", encoding="utf-8") as f:
             since = f.read().strip()
     else:
-        since = "2020 - 2025"
+        return
     
-    about_text = f"""
-{GRAY}+-------------------------------------------------------+
-|{RESET}                   ABOUT {TOOL_NAME.upper()}                      {GRAY}|
-+-------------------------------------------------------+{RESET}
+    about_text = f"""{GRAY}
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃              ABOUT {TOOL_NAME.upper():<17}      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+{RESET}{TOOL_NAME} is a simple {DESCRIPTION}
+that allows you to personalize your Termux experience
 
-  {TOOL_NAME} is a simple {DESCRIPTION}
-  that allows you to personalize your Termux experience.
-  
-  {WHITE}Features:{RESET}
-  * {TOTAL_THEMES} unique themes with custom ASCII art
-  * {TOTAL_FONTS} professional fonts
-  * {TOTAL_BACKGROUNDS} color schemes (backgrounds)
-  * Easy restore to defaults
-  * Full offline support
-  
-  {WHITE}Version:{RESET} {YELLOW}{VERSION}{RESET} ({VERSION_TAG})
-  {WHITE}Author:{RESET}  {AUTHOR}
-  {WHITE}Since:{RESET}   {since}
-  {WHITE}GitHub:{RESET}  {CYAN}{GITHUB_URL}{RESET}
+{WHITE}Features:{RESET}
+* {TOTAL_THEMES} unique themes with ASCII art
+* {TOTAL_FONTS} professional fonts
+* {TOTAL_BACKGROUNDS} color schemes
+* Dual mode: menu & CLI arguments
+* Personalization: custom username/team
+* Restore defaults
+* Update tool
+* Full offline support
 
-{GRAY}+-------------------------------------------------------+{RESET}
-"""
+{WHITE}Version:{RESET} {YELLOW}{VERSION}{RESET} ({VERSION_TAG})
+{WHITE}Author:{RESET}  {AUTHOR}
+{WHITE}Since:{RESET}   {since}
+{WHITE}GitHub:{RESET}  {CYAN}{GITHUB_URL}
+{RESET}"""
+
     print(about_text)

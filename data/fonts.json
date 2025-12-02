@@ -83,23 +83,40 @@
     "url": "data/fonts/fantasque.txt",
     "is_local": true
   },
-},
-{
-  "id": "go",
-  "name": "Go",
-  "url": "data/fonts/go.txt",
-  "is_local": true
-},
-{
-  "id": "hack",
-  "name": "Hack",
-  "url": "data/fonts/hack.txt",
-  "is_local": true
-},
-{
-  "id": "hermit",
-  "name": "Hermit",
-  "url": "data/fonts/hermit.txt",
-  "is_local": true
-}
+  {
+    "id": "go",
+    "name": "Go",
+    "url": "data/fonts/go.txt",
+    "is_local": true
+  },
+  {
+    "id": "hack",
+    "name": "Hack",
+    "url": "data/fonts/hack.txt",
+    "is_local": true
+  },
+  {
+    "id": "hermit",
+    "name": "Hermit",
+    "url": "data/fonts/hermit.txt",
+    "is_local": true
+  },
+  {
+    "id": "fira",
+    "name": "Fira",
+    "url": "data/fonts/fira.txt",
+    "is_local": true
+  },
+  {
+    "id": "firacode",
+    "name": "FiraCode",
+    "url": "data/fonts/firacode.txt",
+    "is_local": true
+  },
+  {
+    "id": "gnu-freefont",
+    "name": "GNU-FreeFont",
+    "url": "data/fonts/gnu-freefont.txt",
+    "is_local": true
+  }
 ]

@@ -1,19 +1,21 @@
-#!/bin/bash
-
-echo -e "\033[92m[Theme-Me v3.0] Installing..."
-
+#!/data/data/com.termux/files/usr/bin/bash
+echo "[Theme-Me v3.0] Installing..."
 # Install dependencies
-pkg install python -y
-
-# Ensure data directory permissions
+pkg install python -y 
+pkg install git -y
+# Set permissions
 chmod -R 755 data/
+# Create symlink
+INSTALL_DIR="$PREFIX/share/theme-me"
+mkdir -p "$INSTALL_DIR"
+cp -r . "$INSTALL_DIR/"
 
-# Run the download script if resources are missing (optional, but good for first run if cloned without data)
-# But since we want offline, we assume data is there.
-# If not, we can try to run it.
-if [ ! -d "data/fonts" ] || [ ! -d "data/backgrounds" ]; then
-    echo -e "\033[93m[Warning] Offline resources missing. Please ensure data folder is populated."
+# Create executable wrapper
+if [ ! -f "$PREFIX/bin/theme-me" ]; then
+    echo '#!/data/data/com.termux/files/usr/bin/bash' > "$PREFIX/bin/theme-me"
+    echo "cd $INSTALL_DIR && python run.py \"\$@\"" >> "$PREFIX/bin/theme-me"
+    chmod +x "$PREFIX/bin/theme-me"
+    echo "[Theme-Me v3.0] Installation complete! Run 'theme-me' to start."
+else
+    echo "[Theme-Me v3.0] Already installed. Run 'theme-me' to start."
 fi
-
-echo -e "\033[92m[Success] Installation complete!"
-echo -e "\033[96mPlease see README.md for more information."

@@ -1,11 +1,23 @@
-import argparse
+# -*- coding: utf-8 -*-
+from core.utils import print_error
 import sys
+import os
+
+# Set UTF-8 encoding for stdout/stderr (Windows compatibility)
+if sys.platform == 'win32':
+    import codecs
+    sys.stdout = codecs.getwriter('utf-8')(sys.stdout.buffer, 'strict')
+    sys.stderr = codecs.getwriter('utf-8')(sys.stderr.buffer, 'strict')
+
+from core.utils import print_info
+from core.utils import RED, WHITE, GRAY
+import argparse
 import webbrowser
 from core.constants import TOOL_NAME, VERSION, ISSUES_URL
 from core.handler import apply_theme, apply_font, apply_background, restore_defaults, get_themes, get_fonts, get_backgrounds
 from core.ui import show_menu, list_items, show_preview
 from core.about import show_about
-from core.utils import setup_logging, check_termux, print_error, print_success, update_tool
+from core.utils import setup_logging, check_termux, print_info, update_tool, enter_to_continue
 
 def main():
     setup_logging()
@@ -17,7 +29,7 @@ def main():
     parser.add_argument("--font", help="Apply a specific font by name or ID")
     parser.add_argument("--background", help="Apply a specific background by name or ID")
     parser.add_argument("--list", choices=["theme", "font", "background"], help="List available options")
-    parser.add_argument("--preview", help="Preview a theme by ID")
+    # parser.add_argument("--preview", help="Preview a theme by ID")
     parser.add_argument("--restore", action="store_true", help="Restore default settings")
     parser.add_argument("--about", action="store_true", help="Show about information")
     parser.add_argument("--version", action="store_true", help="Show version")
@@ -37,9 +49,9 @@ def main():
             list_items(get_backgrounds(), "Backgrounds")
         return
 
-    if args.preview:
-        show_preview(args.preview)
-        return
+    # if args.preview:
+    #     show_preview(args.preview)
+    #     return
 
     if args.theme:
         apply_theme(args.theme)
@@ -64,39 +76,50 @@ def main():
     # Interactive Mode
     while True:
         show_menu()
-        choice = input("\nEnter your choice: ")
+        choice = input(F"\n{RED}@root{WHITE}/{RED}Theme-Me{WHITE} # ")
+
         
         if choice == "1":
             list_items(get_themes(), "Themes")
-            t = input("\nEnter theme ID/Name to apply (or enter to go back): ")
-            if t: apply_theme(t)
+            print_info(f"Enter theme ID/Name to apply (or enter to go back)")
+            t = input(F"{RED}@root{WHITE}/{RED}Theme-Me{WHITE}/{RED}Themes{WHITE} # ")
+            if t: 
+                apply_theme(t)
+                enter_to_continue()
         elif choice == "2":
             list_items(get_fonts(), "Fonts")
-            f = input("\nEnter font ID/Name to apply (or enter to go back): ")
-            if f: apply_font(f)
+            print_info("Enter font ID/Name to apply (or enter to go back): ")
+            f = input(F"{RED}@root{WHITE}/{RED}Theme-Me{WHITE}/{RED}Fonts{WHITE} # ")
+            if f: 
+                apply_font(f)
+                enter_to_continue()
         elif choice == "3":
             list_items(get_backgrounds(), "Backgrounds")
-            b = input("\nEnter background ID/Name to apply (or enter to go back): ")
-            if b: apply_background(b)
+            print_info("Enter background ID/Name to apply (or enter to go back): ")
+            b = input(F"{RED}@root{WHITE}/{RED}Theme-Me{WHITE}/{RED}Backgrounds{WHITE} # ")
+            if b: 
+                apply_background(b)
+                enter_to_continue()
         elif choice == "4":
             restore_defaults()
-            input("\nPress Enter to continue...")
+            enter_to_continue()
         elif choice == "5":
-            print(f"Opening issues page: {ISSUES_URL}")
-            webbrowser.open(ISSUES_URL)
-            input("\nPress Enter to continue...")
+            print_info("If the page doesn’t open automatically, you can open it manually using the link provided.")
+            print(f"Issues page: {ISSUES_URL}")
+            os.system(f"xdg-open {ISSUES_URL}")
+            enter_to_continue()
         elif choice == "6":
             update_tool()
-            input("\nPress Enter to continue...")
+            enter_to_continue()
         elif choice == "7":
             show_about()
-            input("\nPress Enter to continue...")
+            enter_to_continue()
         elif choice == "8":
-            print("Goodbye!")
+            print("See you later!")
             break
         else:
-            print("Invalid choice!")
-            input("\nPress Enter to continue...")
+            print_error("Invalid choice!")
+            enter_to_continue()
 
 if __name__ == "__main__":
     try:
