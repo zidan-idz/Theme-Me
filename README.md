@@ -16,7 +16,7 @@
 ## 📖 Description
 **Theme-Me** is a simple customization tool designed specifically for **Termux**. It allows you to completely transform your terminal's appearance with custom themes, fonts, and color schemes (backgrounds).
 
-### ✨ Key Features
+### ✨ Features
 *   🎨 **20+ Unique Themes** - each with custom ASCII art and personalized username/team display
 *   🔤 **20+ Professional Fonts** - enhance your terminal readability
 *   🌈 **20+ Color Schemes** - from dark modes to vibrant palettes
@@ -135,6 +135,12 @@ This tool modifies Termux configuration files. While it includes a restore featu
 - Test on a non-critical Termux installation first
 - Use the "Restore Defaults" feature if you encounter any issues
 - Ensure you have an **internet connection** if you are missing local resource files (they will be downloaded automatically)
+
+---
+
+## 📝 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
 ---
 
