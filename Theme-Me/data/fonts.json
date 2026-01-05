@@ -1,0 +1,122 @@
+[
+  {
+    "id": "inconsolata",
+    "name": "Inconsolata",
+    "url": "data/fonts/inconsolata.txt",
+    "is_local": true
+  },
+  {
+    "id": "iosevka",
+    "name": "Iosevka",
+    "url": "data/fonts/iosevka.txt",
+    "is_local": true
+  },
+  {
+    "id": "liberationmono",
+    "name": "LiberationMono",
+    "url": "data/fonts/liberationmono.txt",
+    "is_local": true
+  },
+  {
+    "id": "meslo",
+    "name": "Meslo",
+    "url": "data/fonts/meslo.txt",
+    "is_local": true
+  },
+  {
+    "id": "monofur",
+    "name": "Monofur",
+    "url": "data/fonts/monofur.txt",
+    "is_local": true
+  },
+  {
+    "id": "monoid",
+    "name": "Monoid",
+    "url": "data/fonts/monoid.txt",
+    "is_local": true
+  },
+  {
+    "id": "opendyslexic",
+    "name": "OpenDyslexic",
+    "url": "data/fonts/opendyslexic.txt",
+    "is_local": true
+  },
+  {
+    "id": "roboto",
+    "name": "Roboto",
+    "url": "data/fonts/roboto.txt",
+    "is_local": true
+  },
+  {
+    "id": "source-code-pro",
+    "name": "Source-Code-Pro",
+    "url": "data/fonts/source-code-pro.txt",
+    "is_local": true
+  },
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu",
+    "url": "data/fonts/ubuntu.txt",
+    "is_local": true
+  },
+  {
+    "id": "anonymous-pro",
+    "name": "Anonymous-Pro",
+    "url": "data/fonts/anonymous-pro.txt",
+    "is_local": true
+  },
+  {
+    "id": "courier-prime",
+    "name": "Courier-Prime",
+    "url": "data/fonts/courier-prime.txt",
+    "is_local": true
+  },
+  {
+    "id": "dejavu",
+    "name": "DejaVu",
+    "url": "data/fonts/dejavu.txt",
+    "is_local": true
+  },
+  {
+    "id": "fantasque",
+    "name": "Fantasque",
+    "url": "data/fonts/fantasque.txt",
+    "is_local": true
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "url": "data/fonts/go.txt",
+    "is_local": true
+  },
+  {
+    "id": "hack",
+    "name": "Hack",
+    "url": "data/fonts/hack.txt",
+    "is_local": true
+  },
+  {
+    "id": "hermit",
+    "name": "Hermit",
+    "url": "data/fonts/hermit.txt",
+    "is_local": true
+  },
+  {
+    "id": "fira",
+    "name": "Fira",
+    "url": "data/fonts/fira.txt",
+    "is_local": true
+  },
+  {
+    "id": "firacode",
+    "name": "FiraCode",
+    "url": "data/fonts/firacode.txt",
+    "is_local": true
+  },
+  {
+    "id": "gnu-freefont",
+    "name": "GNU-FreeFont",
+    "url": "data/fonts/gnu-freefont.txt",
+    "is_local": true
+  }
+]

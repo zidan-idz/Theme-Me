@@ -1,0 +1,27 @@
+
+\033[97m                    uuuuuuu
+                uuSSSSSSSSSSSuu
+             uuSSSSSSSSSSSSSSSSSuu
+            uSSSSSSSSSSSSSSSSSSSSSu
+           uSSSSSSSSSSSSSSSSSSSSSSSu
+          uSSSSSSSSSSSSSSSSSSSSSSSSSu
+          uSSSSSSSSSSSSSSSSSSSSSSSSSu
+          uSSSSSS“   “SSS“   “SSSSSSu
+          “SSSS“      uSu       SSSS“
+           SSSu       uSu       uSSS
+           SSSu      uSSSu      uSSS
+            “SSSSuuSSS   SSSuuSSSS“
+             “SSSSSSS“   “SSSSSSS“
+               uSSSSSSSuSSSSSSSu
+                uS“S“S“S“S“S“Su
+     uuu        SSuS S S S SuSS       uuu
+    uSSSS        SSSSSuSuSuSSS       uSSSS
+     SSSSSuu      “SSSSSSSSS“     uuSSSSSS
+   uSSSSSSSSSSSuu    “““““    uuuuSSSSSSSSSS
+   SSSS“““SSSSSSSSSSuuu   uuSSSSSSSSS“““SSS“
+    “““      ““SSSSSSSSSSSuu ““S“““
+              uuuu ““SSSSSSSSSSuuu
+     uSSSuuuSSSSSSSSSuu ““SSSSSSSSSSSuuuSSS
+     SSSSSSSSSS““““           ““SSSSSSSSSSS“
+      “SSSSS“                      ““SSSS““
+        SSS“                         SSSS“         
