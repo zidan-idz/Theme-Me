@@ -225,19 +225,41 @@ def restore_defaults():
         if THEME_PY.exists():
             THEME_PY.unlink()
 
-        # Salin template bawaan
+        # Strategi Restore: Prioritaskan Backup User
+        restored_from_backup = False
+        backup_path = target_bashrc.parent / "bash.bashrc.bak"
+
+        if backup_path.exists():
+            try:
+                if target_bashrc.exists():
+                    target_bashrc.unlink()
+                shutil.move(str(backup_path), str(target_bashrc))
+                print_success("Restored bash.bashrc from user backup!")
+                restored_from_backup = True
+            except Exception as e:
+                print_error(f"Failed to restore backup: {e}")
+        
+        # Jika tidak ada backup, atau gagal restore, gunakan template
+        if not restored_from_backup:
+            bashrc_default = TEMPLATES_DIR / "bashrc.txt"
+            if bashrc_default.exists():
+                copy_to_lf(bashrc_default, target_bashrc)
+            print_info("Restored bash.bashrc from Theme-Me template (no backup found).")
+
+        # Restore motd (selalu pakai template karena tidak ada backup motd)
+        motd_default = TEMPLATES_DIR / "motd_default.txt" # Cek nama file asli, di kode lama: motd.txt
+        # Koreksi: di kode lama 'motd.txt'. Saya akan pakai itu.
         motd_default = TEMPLATES_DIR / "motd.txt"
-        bashrc_default = TEMPLATES_DIR / "bashrc.txt"
         if motd_default.exists():
             copy_to_lf(motd_default, target_motd)
-        if bashrc_default.exists():
-            copy_to_lf(bashrc_default, target_bashrc)
 
         if USR_ETC.exists():
             os.system("termux-reload-settings")
 
         print_success('The process completed without any issues')
         print_success("Restored to default settings.")
+        
+        # Reset config status
         update_config("current_theme", None)
         update_config("current_font", None)
         update_config("current_background", None)
