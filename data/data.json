@@ -1,0 +1,21 @@
+{
+    "tips": [
+        "Did you know? You can use 'python run.py --theme <name>' to apply themes quickly!",
+        "Theme-Me works offline after the initial setup!",
+        "You can restore default settings anytime using the 'Restore Defaults' option.",
+        "Check out the 'Fonts' menu to change your terminal's typography.",
+        "Backgrounds change the color scheme of your terminal.",
+        "Your username and team name are displayed in the custom ASCII art.",
+        "Use 'python run.py --help' to see all available CLI commands.",
+        "Found a bug? Report it via the 'Report Issue' menu option.",
+        "Theme-Me is open source! Feel free to contribute on GitHub.",
+        "You can preview themes in your browser using the --preview command.",
+        "Make sure to keep Theme-Me updated for new themes and features!",
+        "Combine different fonts and backgrounds for a unique look.",
+        "The 'Dracula' background is a fan favorite for coding!",
+        "Want a clean look? Try the 'Minimal' theme (if available) or a simple font.",
+        "Termux allows powerful customization beyond just themes.",
+        "Always backup your important files before major changes.",
+        "Enjoying Theme-Me? Give it a star on GitHub!"
+    ]
+}

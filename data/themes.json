@@ -1,0 +1,142 @@
+[
+  {
+    "id": "infernal-reaper",
+    "name": "Infernal Reaper",
+    "path": "data/themes/infernal-reaper.txt",
+    "is_local": true,
+    "url": "data/themes/infernal-reaper.txt"
+  },
+  {
+    "id": "19esports",
+    "name": "19esports",
+    "path": "data/themes/19esports.txt",
+    "is_local": true,
+    "url": "data/themes/19esports.txt"
+  },
+  {
+    "id": "ethereal-cranium",
+    "name": "Ethereal Cranium",
+    "path": "data/themes/ethereal-cranium.txt",
+    "is_local": true,
+    "url": "data/themes/ethereal-cranium.txt"
+  },
+  {
+    "id": "bigetron",
+    "name": "Bigetron",
+    "path": "data/themes/bigetron.txt",
+    "is_local": true,
+    "url": "data/themes/bigetron.txt"
+  },
+  {
+    "id": "evil-geniuses",
+    "name": "Evil Geniuses",
+    "path": "data/themes/evil-geniuses.txt",
+    "is_local": true,
+    "url": "data/themes/evil-geniuses.txt"
+  },
+  {
+    "id": "team-spirit",
+    "name": "Team Spirit",
+    "path": "data/themes/team-spirit.txt",
+    "is_local": true,
+    "url": "data/themes/team-spirit.txt"
+  },
+  {
+    "id": "cloud-9",
+    "name": "Cloud 9",
+    "path": "data/themes/cloud-9.txt",
+    "is_local": true,
+    "url": "data/themes/cloud-9.txt"
+  },
+  {
+    "id": "keepbest-gaming",
+    "name": "KeepBest Gaming",
+    "path": "data/themes/keepbest-gaming.txt",
+    "is_local": true,
+    "url": "data/themes/keepbest-gaming.txt"
+  },
+  {
+    "id": "invictus-gaming",
+    "name": "Invictus Gaming",
+    "path": "data/themes/invictus-gaming.txt",
+    "is_local": true,
+    "url": "data/themes/invictus-gaming.txt"
+  },
+  {
+    "id": "iluminate",
+    "name": "Iluminate",
+    "path": "data/themes/iluminate.txt",
+    "is_local": true,
+    "url": "data/themes/iluminate.txt"
+  },
+  {
+    "id": "496-gaming",
+    "name": "496 Gaming",
+    "path": "data/themes/496-gaming.txt",
+    "is_local": true,
+    "url": "data/themes/496-gaming.txt"
+  },
+  {
+    "id": "team-liquid",
+    "name": "Team Liquid",
+    "path": "data/themes/team-liquid.txt",
+    "is_local": true,
+    "url": "data/themes/team-liquid.txt"
+  },
+  {
+    "id": "team-solomid",
+    "name": "Team SoloMid",
+    "path": "data/themes/team-solomid.txt",
+    "is_local": true,
+    "url": "data/themes/team-solomid.txt"
+  },
+  {
+    "id": "todak",
+    "name": "Todak",
+    "path": "data/themes/todak.txt",
+    "is_local": true,
+    "url": "data/themes/todak.txt"
+  },
+  {
+    "id": "wings-gaming",
+    "name": "Wings Gaming",
+    "path": "data/themes/wings-gaming.txt",
+    "is_local": true,
+    "url": "data/themes/wings-gaming.txt"
+  },
+  {
+    "id": "blacklist",
+    "name": "Blacklist",
+    "path": "data/themes/blacklist.txt",
+    "is_local": true,
+    "url": "data/themes/blacklist.txt"
+  },
+  {
+    "id": "onic",
+    "name": "Onic",
+    "path": "data/themes/onic.txt",
+    "is_local": true,
+    "url": "data/themes/onic.txt"
+  },
+  {
+    "id": "fnatic",
+    "name": "Fnatic",
+    "path": "data/themes/fnatic.txt",
+    "is_local": true,
+    "url": "data/themes/fnatic.txt"
+  },
+  {
+    "id": "faze-clan",
+    "name": "Faze Clan",
+    "path": "data/themes/faze-clan.txt",
+    "is_local": true,
+    "url": "data/themes/faze-clan.txt"
+  },
+  {
+    "id": "megastars",
+    "name": "MegaStars",
+    "path": "data/themes/megastars.txt",
+    "is_local": true,
+    "url": "data/themes/megastars.txt"
+  }
+]

@@ -1,0 +1,6 @@
+to update Theme-Me. follow these command:
+
+$ cd ..
+$ rm -rf Theme-Me
+$ git clone https:/github.com/Zidan-ID17/Theme-Me.git
+$ cd Theme-Me
